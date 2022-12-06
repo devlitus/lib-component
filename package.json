@@ -1,5 +1,5 @@
 {
-  "name": "cp-headers-component",
+  "name": "lib-components",
   "version": "0.0.1",
   "description": "",
   "main": "dist/Header.js",
@@ -11,8 +11,7 @@
     "build": "node ./esbuild.config.js"
   },
   "keywords": [
-    "component",
-    "header"
+    "component"
   ],
   "author": "Carles Pedrero",
   "license": "ISC",
