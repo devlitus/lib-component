@@ -1,0 +1,38 @@
+{
+  "name": "cp-headers-component",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/Header.js",
+  "type": "module",
+  "engines": {
+    "node": ">=16.18.1"
+  },
+  "scripts": {
+    "build": "node ./esbuild.config.js"
+  },
+  "keywords": [
+    "component",
+    "header"
+  ],
+  "author": "Carles Pedrero",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.15.14",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "ignorePatterns": [
+      "dist/"
+    ]
+  },
+  "browserslist": [
+    "last 1 Chrome versions",
+    "last 1 Firefox versions",
+    "last 1 Safari versions"
+  ]
+}
