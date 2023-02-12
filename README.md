@@ -1,7 +1,6 @@
-# Componet header
- Este componente representa la cabezera de una páguina web<br>
- donde se coloca la navegación
+# Library components of React
+This project will be a collection of React components
 ### npm install
 ```
-npm install cp-header-component
+npm install cp-lib-siebar
 ```

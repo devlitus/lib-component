@@ -1,0 +1,200 @@
+{
+  "files.autoSave": "onFocusChange",
+  // "errorLens.onSave": true,
+  "workbench.editor.languageDetection": true,
+  "workbench.activityBar.iconClickBehavior": "focus",
+  "workbench.editor.historyBasedLanguageDetection": true,
+  "terminal.integrated.smoothScrolling": true,
+
+  // Git and Git Copailot
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "html": true,
+    "css": true,
+    "typescript": true,
+    "javascript": true,
+    "dart": true
+  },
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.allowForcePush": true,
+  "git.allowNoVerifyCommit": true,
+  "git.enableSmartCommit": true,
+
+  // Editor
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.fontSize": 16,
+  "editor.fontFamily": "'Cascadia Code', 'CaskaydiaCove Nerd Font', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": 600,
+  "editor.lineHeight": 24,
+  "editor.letterSpacing": 0.5,
+  "editor.suggestSelection": "first",
+  "editor.inlineSuggest.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.matchBrackets": "always",
+  "editor.colorDecorators": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true,
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.fixAll.stylelint": true,
+    "source.fixAll.prettier": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true
+  },
+  "editor.codeLens": true,
+  "editor.codeLensFontFamily": "'CaskaydiaCove Nerd Font', 'FantasqueSansMono Nerd Font'",
+  "editor.codeLensFontSize": 14,
+  "editor.suggest.showConstants": true,
+  "editor.suggest.preview": true,
+
+
+  // Eslint
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.format.enable": true,
+
+  // Terminal
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.detectLocale": "auto",
+  "terminal.integrated.shellIntegration.enabled": true,
+
+  // Languages
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[source.css.scss.jsx.styled]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[jsx-tags]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.wordWrap": "on"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": ["document"]
+  },
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Vue.volar",
+    "editor.tabSize": 2,
+    "gitlens.codeLens.scopes": ["document"],
+    "editor.semanticHighlighting.enabled": true
+  },
+  "[Dart]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.tabSize": 2,
+    "gitlens.codeLens.scopes": ["document"],
+    "editor.semanticHighlighting.enabled": true
+  },
+
+  "js/ts.implicitProjectConfig.strictNullChecks": true,
+  "errorLens.messageTemplate": "$message $source $code $severity",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "eslint.useESLintClass": true,
+  "yaml.schemas": {
+    "file:///home/kirito/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "redhat.telemetry.enabled": true,
+  "atlascode.bitbucket.contextMenus.enabled": true,
+  "atlascode.bitbucket.statusbar.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+
+  "editor.linkedEditing": true,
+  "thunder-client.saveToWorkspace": true,
+  "thunder-client.showActivityFromCollection": true,
+  "thunder-client.headersCaseSensitive": true,
+  "json.maxItemsComputed": 50000,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "atlascode.jira.lastCreateSiteAndProject": {
+    "siteId": "",
+    "projectKey": ""
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "atlascode.jira.jqlList": [
+    {
+      "id": "6b07248d-6da1-4178-a555-11671144debe",
+      "enabled": true,
+      "name": "My quabusolutions Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "717012cf-ba41-4dcc-a041-45f7396f26fe",
+      "monitor": true
+    }
+  ],
+  "atlascode.jira.explorer.nestSubtasks": false,
+  "atlascode.jira.explorer.enabled": false,
+  "atlascode.jira.enabled": true,
+  "atlascode.bitbucket.enabled": true,
+  "dart.flutterSdkPath": "/home/kirito/flutter",
+  "atlascode.bitbucket.explorer.enabled": true,
+  "docker.containers.label": "ContainerId",
+  "rapidapi.terminalLink.enabled": false,
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.wordWrapColumn": 260,
+  "oneDarkPro.vivid": true
+}

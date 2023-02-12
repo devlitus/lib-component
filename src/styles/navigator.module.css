@@ -1,0 +1,12 @@
+.navigator {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.navigator__item > ul {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  margin-right: 2rem;
+}

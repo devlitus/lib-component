@@ -1,2 +1,4 @@
 node_modules
-esbuild.config.js
+esbuild.config.cjs
+package-lock.json
+.vscode/

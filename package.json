@@ -1,14 +1,11 @@
 {
-  "name": "lib-components",
-  "version": "0.0.1",
+  "name": "cp-layout-dashboard",
+  "version": "0.0.4",
   "description": "",
-  "main": "dist/Header.js",
-  "type": "module",
-  "engines": {
-    "node": ">=16.18.1"
-  },
+  "module": "dist/Dashboard.js",
+  "export": "./dist/Dashboard.js",
   "scripts": {
-    "build": "node ./esbuild.config.js"
+    "build": "node ./esbuild.config.cjs"
   },
   "keywords": [
     "component"
@@ -16,7 +13,9 @@
   "author": "Carles Pedrero",
   "license": "ISC",
   "devDependencies": {
+    "css-tree": "2.3.0",
     "esbuild": "^0.15.14",
+    "esbuild-css-modules-plugin": "^2.6.2",
     "standard": "^17.0.0"
   },
   "dependencies": {
@@ -28,10 +27,5 @@
     "ignorePatterns": [
       "dist/"
     ]
-  },
-  "browserslist": [
-    "last 1 Chrome versions",
-    "last 1 Firefox versions",
-    "last 1 Safari versions"
-  ]
+  }
 }
